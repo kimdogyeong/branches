@@ -1,3 +1,3 @@
-count = 0
-if count == 0:
-    print('hello')
+for count in range(5):
+    if count % 2 == 0:
+        print('hello')
